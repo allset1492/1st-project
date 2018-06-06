@@ -1,0 +1,132 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald:500,700';
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400i,700i';
+@import 'https://fonts.googleapis.com/css?family=Raleway:300i,400,400i,500,600,700';
+
+
+
+
+body{
+	margin: 0;
+}
+
+header{
+	background: #A9A9A9;
+	color: #B8860B;
+	padding: 8px 0px 6px 40px;
+	height: 45px;
+}
+
+header h1{
+
+	display: inline;
+	font-family:'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	float: left;
+	
+	margin-top: 0px;
+	margin-right: 10px;
+	color: white;
+}
+
+nav ul {
+
+	display: inline;
+	padding: 0;
+	float: left;
+}
+
+nav ul li {
+	display: inline-block; 
+	list-style-type: none;
+	color: white;
+	float: left;
+	margin-left: 12px;
+	margin-top: 0px;
+}
+
+	
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+
+}
+
+#nav {
+
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.divider {
+	background: red;
+	height: 5px;
+}
+.homered{
+	background: red;
+	padding: 30px 10px 7px 10px;
+}
+
+.homeblack:hover {
+	background: blue;
+	padding: 30px 10px 7px 10px;
+}
+
+.tasveer {
+	background-image: url(beauty.jpg);
+	width: 100%;
+	height: 90vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+
+}
+.homep{
+	font-family: 'Raleway', sans-serif;
+	margin: 0%;
+	padding: 9% 5% 0% 55%;
+	font-size: 17;
+	color: yellow;
+}
+
+.homea{
+	font-family: 'Raleway', sans-serif;
+	margin: 0.5% 0% 0% 55%; 
+	font-size: 75;
+	color: white;
+	background-color: rgba(0,0,0,0.4);
+	display: inline-block;
+}
+
+.homean{
+	font-family: 'Oswald, sans-serif';
+	margin: 0% 0% 0% 55%; 
+	font-size: 64;
+	color: red;
+	display: inline-block;
+
+}
+
+.p{
+	margin: 0% 0% 0% 55%;
+	background: silver;
+	border: 6;
+	color: black;
+	box-shadow: 9
+	font-size: 1.4em;
+	height: 50px;
+	padding: 0 1em;
+	cursor: pointer;
+	outline: none;
+	font-family: Raleway, sans-serif;
+	font-weight: 800;
+
+
+
+}
+
+
+
